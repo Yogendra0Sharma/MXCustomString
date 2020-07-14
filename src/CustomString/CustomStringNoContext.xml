@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="CustomString.widget.CustomStringNoContext" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>CustomString (No Context)</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="sourceMF" type="microflow" required="false">
+          <caption>Source microflow</caption>
+          <category>Data source</category>
+          <description>Microflow returning a String</description>
+          <returnType type="String"></returnType>
+        </property>
+        <property key="sourceNF" type="nanoflow" required="false">
+          <caption>Source microflow</caption>
+          <category>Data source</category>
+          <description>Nanoflow returning a String</description>
+          <returnType type="String"></returnType>
+        </property>
+    </properties>
+</widget>
